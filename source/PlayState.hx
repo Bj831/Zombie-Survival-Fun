@@ -47,13 +47,13 @@ class PlayState extends FlxState
     private var comboTimeout:Float = 3.0;
     private var zombiesKilled:Int = 0;
     private var killsNeededForNextWave:Int = 30;
-	private var isComboTextHidden:Bool = false;
-	private var comboHideTimer:Float = 0;
-	private var comboHideDuration:Float = 5.0; // Duration in seconds to hide the combo text
-	private var comboPopup:FlxText;
-	private var comboScale:Float = 1.0;
-	private var isComboAnimating:Bool = false;
-	private var lastComboPosition:FlxPoint;   
+    private var isComboTextHidden:Bool = false;
+    private var comboHideTimer:Float = 0;
+    private var comboHideDuration:Float = 5.0; // Duration in seconds to hide the combo text
+    private var comboPopup:FlxText;
+    private var comboScale:Float = 1.0;
+    private var isComboAnimating:Bool = false;
+    private var lastComboPosition:FlxPoint;   
 
     // UI elements
     private var scoreText:FlxText;
